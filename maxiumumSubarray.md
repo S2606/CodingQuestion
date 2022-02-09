@@ -58,6 +58,7 @@ ele = 4
 max_so_far = 6
 max_ending = 4
 
+```
 public int maxSubArray(int[] nums) {
   int max_so_far = 0;
   int max_ending = 0;
@@ -73,5 +74,7 @@ public int maxSubArray(int[] nums) {
   
   return max_so_far;
 }
+```
+
 Time complexity - o(n) 
 Space complexity - o(1)
