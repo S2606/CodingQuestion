@@ -63,3 +63,6 @@ int lcs(char[] a, char[] b){
     return dp[i-1][j-1];
 }
 ```
+
+Time complexity - O(n^2)
+Space complexity - O(n^2)
