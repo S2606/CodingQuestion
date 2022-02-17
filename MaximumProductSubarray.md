@@ -30,15 +30,15 @@ nums = [2,3,-2,4]
    min_so_far = 3;
    final_max = 6;
 
-3) temp = -2;
-   max_so_far = 6;
-   min_so_far = 3;
-   final_max = -2;
+3) temp = 6;
+   max_so_far = -2;
+   min_so_far = -12;
+   final_max = 6;
 
-4) temp = 3;
-   max_so_far = 6;
-   min_so_far = 3;
-   final_max = -2;
+4) temp = -2;
+   max_so_far = 4;
+   min_so_far = -48;
+   final_max = 6;
 
 Code:-
 
