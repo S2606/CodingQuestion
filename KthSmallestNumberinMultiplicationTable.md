@@ -27,7 +27,7 @@ This was the final answer given to the interviewer.
 - So can binary search be used here?? YES, how? the count factor can be checked is that till a particular element, if we can somehow know that 
 there are k elements smaller than that element, can we safely say that that element is a candidate for our answer?? YES, if this 
 clear how will the count procedure take place?? So in order to count smaller elements, remembering the point that numbers are represented in [i, 2*i, 3*i,..] 
-fashion, then they should be calculated as x//i. Okay so with jargons aside, lets see the code
+fashion, then they should be calculated as x//i since {k*i ≤ x}. Okay so with jargons aside, lets see the code
 
 ```
 public bool enough(int mi, int m, int n, int k){
