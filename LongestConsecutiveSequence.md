@@ -25,7 +25,7 @@ public int longestConsecutive(int[] nums) {
         int longestSeq = 0;
         
         for(int num: set){
-          if(!set.contains(num)){
+          if(!set.contains(num-1)){
              // To check if previous element exists, thereby reducing chance of finding sequence of small size
              int currNum = num;
              int currentSeq = 1;
