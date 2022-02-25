@@ -30,7 +30,7 @@ clear how will the count procedure take place?? So in order to count smaller ele
 fashion, then they should be calculated as x//i since {k*i ≤ x}. Okay so with jargons aside, lets see the code
 
 ```
-public bool enough(int mi, int m, int n, int k){
+public bool enough(int x, int m, int n, int k){
   int count = 0;
   for(int i=1;i<=m;i++){
     count += Math.min(x/i, n);
