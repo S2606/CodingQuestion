@@ -25,7 +25,7 @@ One of the ways we can end with 5 at the top of the pile after 4 moves is as fol
 Note that this is not the only way to end with 5 at the top of the pile. It can be shown that 5 is the largest answer possible after 4 moves.
 ```
 
-Approach:- if array length is more than k, can do k-1 operations, but the last operations should be the maximum element added. of k is more, just choose the maximum one from all.
+Approach:- if array length is more than k, can do k-1 operations, but the last operation should be the maximum element added. if k is more, just choose the maximum one from all.
 
 ```
 public int maximumTop(int[] nums, int k) {
